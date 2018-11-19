@@ -1,0 +1,13 @@
+/**
+ *
+ */
+
+/**
+ * @author testuser
+ *<p>Mysqlに接続するためのユーティリティです。<br>
+ *ルートアカウントにてDBに接続されます。</p>
+ *
+ */
+public class DBConnector {
+
+}
