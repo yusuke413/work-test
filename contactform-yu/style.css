@@ -1,0 +1,45 @@
+body{
+    font-family:"Hiragiko Kaku Gothic ProN","メイリオ",sans-serif;
+    
+}
+/*大見出しのお問い合わせフォームのレイアウト*/
+h1{
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom:20px;
+    border-left:4px solid red;
+    background-color:#f1f1f1;
+    width:500px;
+    padding:5px 0px 5px 15px;
+    font-size:20px;
+}
+/*フォーム全体のレイアウト
+名前、年齢、メール、コメント全体*/
+form{
+    margin:0 auto;
+    width:500px;
+    background-color:#fbfbfb;
+    border:3px solid #ededed;
+    border-radius;10px;
+}
+form div{
+    padding:15px;
+    
+}
+/*コメントのレイアウト調整*/
+.text,textarea, .dropdown{
+    border:1px solid lightgray;
+    padding:5px;
+    color:#999;
+    background:#fff:
+}
+/*送信ボタンのレイアウト*/
+.submit{
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius:5px;
+    border-bottom:2px solid gray;
+
+}

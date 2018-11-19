@@ -1,0 +1,107 @@
+/*17時間目の掲示板作成は
+このファイルではindex16.phpのレイアウトを調整するファイルを作成する
+！HTML、CSSで作ったブログの中を少し変えて作る
+その際、HTMLではなく、PHPファイルにしてデータベースへのアクセスを可能にする
+問題が起きた時に注意すること
+1,ほとんどの問題が起きるケースではスペルミスやケアレスミスがほとんど。
+2,うまく動かないときはファイルがデータベースに接続できているかのチェック→スペルチェック→１０分以上同じところで悩んだときは講師の方にｈｅｌｐする。
+3,ケアレスミスを減らすために細分化して考えることを意識する。
+*/
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+
+}
+
+header ul li {
+    float: left;
+    list-style-type: none;
+    color: white;
+    margin: 10px 20px;
+}
+
+main {
+    clear: left;
+    width: 100%;
+}
+
+.LeftC {
+    float: left;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.LeftC h1 {
+    border-left: 4px solid black;
+    border-bottom: 2px solid black;
+    padding-left:10px;
+}
+
+.LeftC form {
+    background-color: whitesmoke;
+    border: 2px solid lightgray;
+    padding: 4px;
+}
+
+.LeftC form h3 {
+    border-left: 4px solid red;
+    padding-left: 4px;
+}
+
+.LeftC form .HN,
+.Title,
+.Comments {
+    border: 2px solid lightgray;
+
+}
+
+.LeftC form .Submit {
+    background-color: gray;
+    color: white;
+    border-bottom: 2px solid black;
+    border-radius: 5px 5px;
+    margin: 20px 5px;
+    padding: 4px 8px;
+}
+
+.LeftC .kiji {
+    background-color: whitesmoke;
+    border: 2px solid lightgray;
+    margin: 10px 5px;
+    padding-left: 10px;
+}
+
+.LeftC .kiji h3 {
+    border-bottom: 2px solid lightgray;
+    margin: 5px;
+}
+
+
+
+main .RightC {
+    float: left;
+    width: 38%;
+    padding-left: 2%;
+    margin-bottom: 20px;
+}
+
+.RightC h2 {
+    border-bottom: 2px dashed black;
+
+}
+
+.RightC ul li {
+    list-style-type: none;
+}
+
+footer {
+    clear: left;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
