@@ -59,7 +59,7 @@ public class TestUserDAO {
 
 	}
 
-	//tableのすべての値を表示
+	//show all values in table
 
 	public void selectALL() {
 
@@ -102,7 +102,7 @@ public class TestUserDAO {
 
 	}
 
-	//名前を表示
+	//display by name
 
 	public void selectByName(String name) {
 
@@ -146,7 +146,7 @@ public class TestUserDAO {
 
 	}
 
-	//passwordを表示
+	//display by password
 
 	public void selectByPassword(String password) {
 
@@ -181,7 +181,7 @@ public class TestUserDAO {
 
 	}
 
-	//アップデート？プログラムの追加
+	//addition updateProgram?
 
 	public void updateUserNameByUserName(String oldName,String newName) {
 
