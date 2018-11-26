@@ -1,0 +1,52 @@
+import java.io.IOExcption;
+
+import java.io.PrintWriter;
+
+
+
+import javax.servlet.ServletException;
+
+import javax.servlet.annotation.WebServlet;
+
+import javax.Servlet.http.HttpServlet;
+
+import javax.servlet.http.HttpServlet;
+
+import javax.Servlet.http.HttpServletRequest;
+
+import javax.sevlet.http.httpServletResponse;
+
+import com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
+
+
+
+@webServlet("/HelloServlet")
+
+public class Helloservlet extends HttpServlet {
+
+	public HelloServlet() {
+
+		super();
+
+	}
+
+	protected void doGet(HttpSevletRequest request,
+			             HttpServletResponse response) throws
+
+	ServletExcption,IOExcption {
+
+		PrintWriter out = response.getWriter();
+
+		out.println("<HTML>");
+
+		out.println("<BODY>");
+
+		out.println("<H3>Hello Servlet!</H3>");
+
+		out.println("</BODY>");
+
+		out.println("</HTML>");
+
+	}
+
+}

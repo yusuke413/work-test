@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <%@ page errorPage = "total-error.jsp" %>
+    <%@ page errorPage="total-error.jsp"%>
 
     <%
 
