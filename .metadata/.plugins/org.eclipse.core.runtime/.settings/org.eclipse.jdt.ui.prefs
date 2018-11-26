@@ -34,7 +34,7 @@ org.eclipse.jdt.ui.overrideannotation=true
 org.eclipse.jdt.ui.staticondemandthreshold=1
 org.eclipse.jdt.ui.text.code_templates_migrated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="SLF4J \u30ED\u30B0\u5BA3\u8A00" enabled\="true" name\="log">${\:import(org.slf4j.Logger, org.slf4j.LoggerFactory)}/** \u30ED\u30AC\u30FC */&\#13;\r\nprivate static final Logger log \= LoggerFactory.getLogger(${enclosing_type}.class);</template><template autoinsert\="true" context\="java" deleted\="false" description\="\u6A19\u6E96\u51FA\u529B\u3078\u51FA\u529B" enabled\="true" name\="outpri">out.println();</template><template autoinsert\="true" context\="java" deleted\="false" description\="java_io\u306E\u30A4\u30F3\u30DD\u30FC\u30C8" enabled\="true" name\="import_J_Io">import java.io.</template><template autoinsert\="true" context\="java" deleted\="false" description\="" enabled\="true" name\="import javax.servlet">import javax.servlet.</template><template autoinsert\="true" context\="java" deleted\="false" description\="" enabled\="true" name\="Servlet">Servlet</template></templates>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="SLF4J \u30ED\u30B0\u5BA3\u8A00" enabled\="true" name\="log">${\:import(org.slf4j.Logger, org.slf4j.LoggerFactory)}/** \u30ED\u30AC\u30FC */&\#13;\r\nprivate static final Logger log \= LoggerFactory.getLogger(${enclosing_type}.class);</template><template autoinsert\="true" context\="java" deleted\="false" description\="java import" enabled\="true" name\="import java.io.">import java.io.</template><template autoinsert\="true" context\="java" deleted\="false" description\="\u4EEE" enabled\="true" name\="import javax.servlet">import javax.servlet.</template><template autoinsert\="true" context\="e4" deleted\="false" description\="\u3068\u304C\u3063\u305F\u30AB\u30C3\u30B3body" enabled\="true" name\="body">&lt;body&gt;&lt;/body&gt;</template></templates>
 org.eclipse.jdt.ui.text.templates_migrated=true
 org.eclipse.jdt.ui.typefilter.enabled=java.awt.List;
 org.eclipse.jface.textfont=1|\uFF2D\uFF33 \u30B4\u30B7\u30C3\u30AF|20.25|0|WINDOWS|1|-27|0|0|0|400|0|0|0|-128|3|2|1|49|\uFF2D\uFF33 \u30B4\u30B7\u30C3\u30AF;
@@ -84,7 +84,7 @@ semanticHighlighting.typeArgument.color=191,164,164
 semanticHighlighting.typeArgument.enabled=true
 semanticHighlighting.typeParameter.color=191,164,164
 semanticHighlighting.typeParameter.enabled=true
-sourceHoverBackgroundColor=0,0,0
+sourceHoverBackgroundColor=39,40,34
 spelling_locale_initialized=true
 stickyOccurrences=false
 tabWidthPropagated=true
