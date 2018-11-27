@@ -1,0 +1,7 @@
+<classpath>
+  <container id="HelloServlet!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="C:/Users/yusuke/Desktop/workspace/katagiri/work-test/HelloServlet/WebContent/WEB-INF/lib/mysql-connector-java-5.1.47-bin.jar">
+      <source-attachment-path>C:/Users/yusuke/Desktop/workspace/katagiri/work-test/HelloServlet/WebContent/WEB-INF/lib/mysql-connector-java-5.1.47-bin.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

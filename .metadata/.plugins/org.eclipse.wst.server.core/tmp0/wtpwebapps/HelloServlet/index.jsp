@@ -30,6 +30,9 @@
         <input type="button" value="問い合わせ"
             onclick="location.href='inquiry.jsp'">
 
+        <input type="button" value="MySQLServlet"
+            onClick="location.href='MySQLServlet'">
+
         GET通信
 
         <form method="get" action="TestServlet">
